@@ -1,0 +1,85 @@
+<html>
+<head>
+<style>
+h1{
+color:rgb(175, 26, 26);
+border-style:ridge;
+text-shadow: 2px 2px #000;
+text-align:center;
+}
+input[type=submit], input[type=reset]{
+background-color: #65aac5;
+border: 4px solid rgb(0, 0, 0);
+color: #ffffff;
+padding: 16px 32px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;
+}
+h2{
+    color:rgb(175, 26, 26);
+    text-align:center;
+    font-weight:bold;
+    font-family:Arial;
+    font-size: 32px;
+}
+
+</style>
+</head>
+<body background="2.jpg" text="white">
+    <p></p>
+    <h1>Ankieta dotycząca najlepszej postaci:</h1>
+<form action="mailto:wsip@wsip.pl?subject=Temat Ankiety" method="post">
+<p><strong>Imię</strong>: <input type="text" name="Imie" size="30" maxlength="40" style="position: absolute; left:150px; background-color:#65aac5;
+font-style: italic; color: #000000;" required> </p>
+<p><strong>Nazwisko</strong>: <input type="text" name="nazwisko" size="30" maxlength="40" style="position: absolute; left:150px; background-color:#65aac5;
+    font-style: italic; color: #000000;" required> </p>
+
+<p><strong>Ulubiona postać</strong>:  <select style="position: absolute; left:150px; background-color:#65aac5;
+    font-style: italic; color: #000000;">
+    <option value="Naruto Uzumaki">Naruto Uzumaki</option>
+    <option value="Sasuke Uchiha">Sasuke Uchiha</option>
+    <option value="Itachi Uchiha">Itachi Uchiha</option>
+    <option value="Madara Uchiha">Madara Uchiha</option>
+    <option value="Kakashi Hatake">Kakashi Hatake</option>
+    <option value="Sakura Haruno">Sakura Haruno</option>
+    <option value="Minato Namikaze">Minato Namikaze</option>
+    <option value="Jiraiya">Jiraiya</option>
+    <option value="Gaara">Gaara</option>
+    
+</select></p>
+
+        
+
+    </select></p>
+    <br>Jak dobrze znasz Naruto?
+    <br><input type="radio"> Dobrze
+    <input type="radio">Średnio 
+    <input type="radio">Wcale
+    <br>
+    <br>Od kiedy oglądasz Naruto?
+    <br><input type="radio"> Od dziecka
+    <input type="radio">Od 2 lat
+    <input type="radio">Od 5 lat
+    <input type="radio">Inna odpowiedź
+    <br>
+    <br>Czy obejrzałeś wszystkie odcinki?
+    <br><input type="radio"> Tak
+    <input type="radio">Nie
+    
+    <br>
+    <br>Czy wzruszył cię jakiś moment?
+    <br><input type="radio"> Tak    
+    <input type="radio">Nie
+    
+  
+  
+    <h3>Płeć:</h3>
+    <p><input type="radio" name="plec" value="kobieta"> Kobieta</p>
+<p><input type="radio" name="plec" value="mezczyzna"checked="checked"> Mężczyzna</p>
+    <p><input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    
+</form>
+</body>
+</html>
